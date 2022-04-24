@@ -28,6 +28,7 @@ AppWidgetSummary.propTypes = {
   title: PropTypes.string.isRequired,
   total: PropTypes.number.isRequired,
   sx: PropTypes.object,
+  isPercent: PropTypes.object,
 };
 
 export default function AppWidgetSummary({ title, total, icon, color = 'primary', sx, isPercent, ...other }) {
